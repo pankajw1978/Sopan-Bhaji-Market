@@ -1,0 +1,125 @@
+
+p{
+    font-family: 'Numans', sans-serif;
+    color: #000f56;
+}
+a{
+    text-decoration: none;
+}
+.topnavbar {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.navtitle {
+    margin-left: 0px;
+    font-size: 2rem;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+.item{
+    color: lightgreen;
+}
+
+.nav-heading {
+    margin: 20px 20px 40px 20px;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .navtitle:hover{
+    color: olivedrab;
+} */
+
+.left {
+    margin-left: 20px;
+}
+
+.row-img {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.pricing-header {
+    font-family: 'Pacifico', cursive;
+    margin: 50px;
+    color: #06623b;
+}
+
+.card {
+    padding: 20px;
+    margin: 5px;
+}
+
+
+.contact {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.contact-header {
+    font-family: 'Pacifico', cursive;
+    margin: 30px;
+}
+
+.contact-para {
+    margin-top: 15px;
+}
+
+#footer {
+    background-color: #222831;
+}
+
+.social{
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+.fab, .fas {
+    width: 30px;
+}
+.fab:hover , .fas:hover{
+    color: green;
+    
+}
+
+.footer-para {
+    text-align: center;
+    padding: 15px;
+    color: honeydew;
+    margin-bottom: 0px;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+@media (max-width: 500px){
+    #footer {
+        background-color: red;
+    }
+
+    .navtitle {
+        margin-left: 0px;
+        font-size: 1.5rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .nav-heading {
+        font-size: 3.5rem;
+    }
+
+    #row-img {
+        width: 350px;
+    }
+    
+}
