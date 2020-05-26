@@ -103,9 +103,7 @@ a{
 }
 
 @media (max-width: 500px){
-    #footer {
-        background-color: red;
-    }
+    
 
     .navtitle {
         margin-left: 0px;
